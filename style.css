@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/assets/fundo1.jpg);
+}
+
+div {
+    background-color: rgba(0, 0, 0, 10);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+input {
+    outline: none;
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+}
+button {
+    background-color: rgb(185, 28, 28);
+    width: 100%;
+    border-radius: 15px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(163, 72, 72);
+    cursor: pointer;
+}
